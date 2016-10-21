@@ -1,44 +1,38 @@
 body {
   color: #333333;
-  font-family: 'Merriweather', serif;
-  margin: 0;
-}
-/*comment*/
-img {
-  width: 100%;
+  font-family: 'Libre Franklin', sans-serif;
+  margin: auto;
+  width: 849px;
 }
 
-article {
-  margin-left: auto; /*kozepre igazit vagy: margin: 0 auto;*/
-  margin-right: auto;
-  max-width: 668px;
-
+.center {
+  padding-right: 70px;
+  padding-left: 70px;
 }
 
-h1,
-h2 {
-  font-family: 'Lato', sans-serif;
-  text-align: center;
+p,
+ul{
+  line-height: 30px;
+  padding-top: 15px;
+  padding-bottom: 30px;
 }
 
 h1{
-  font-size: 45px;
-  font-weight: 900;
-  margin-bottom: 0;
+  font-size: 30px;
+  text-transform: uppercase;
 }
 
-h2{
-  color: #666666;
-  font-size: 23px;
-  font-weight: normal;
-  margin-top: 0;
+h3{
+  font-size: 19px;
+  font-style: italic;
 }
 
-p{
-  font-size: 21px;
-  line-height: 33px;
+h2,
+h3{
+  line-height: 28px;
 }
 
-a{
-  color: #333333;
+.bottom{
+  border-top: 5px solid;
+  padding-left: 70px;
 }
